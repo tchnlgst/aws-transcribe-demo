@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 import './App.css';
+import { UploadAudio } from './components/UploadAudio';
 import { AudioRecordTable } from './components/AudioRecordTable';
 
 export function App() {
@@ -10,7 +11,7 @@ export function App() {
                 <h1 className="App-title">AWS Transcribe Demo</h1>
             </header>
             <div className="App-body">
-                <p>Too much cost, no more uploading</p>
+                 <UploadAudio />
                 <AudioRecordTable />
             </div>
         </div>
